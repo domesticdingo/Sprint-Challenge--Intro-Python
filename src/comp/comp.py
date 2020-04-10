@@ -46,7 +46,7 @@ print(c)
 
 # Write a list comprehension that creates a list of all the ages plus 10.
 print("Ages plus 10:")
-d = [human.age for human in humans if human.age > 9]
+d = [human.age+10 for human in humans]
 print(d)
 
 # Write a list comprehension that creates a list of strings which are the name
@@ -73,5 +73,5 @@ print(g)
 
 # Write a list comprehension that contains the square root of all the ages.
 print("Square root of ages:")
-h = [human.age**2 for human in humans]
+h = [human.age**.5 for human in humans]
 print(h)
